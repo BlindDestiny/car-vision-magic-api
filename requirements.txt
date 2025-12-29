@@ -4,5 +4,5 @@ opencv-python
 numpy
 ultralytics
 python-multipart
-torch
-tensorflow
+tensorflow==2.12.0  # pick the latest version that Heroku supports
+torch==2.2.0 
